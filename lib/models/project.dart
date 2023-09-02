@@ -26,6 +26,34 @@ class ProjectModel {
   static List<ProjectModel> projects = [
     ProjectModel(
       project: "Flutter App",
+      title: "HSV HRIS",
+      description:
+          "HSV HRIS is an application that provides an integrated information system for managing human resources (HR) and employee attendance within the company.",
+      appPhotos: AppConstants.hsvHrisImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.hsv.hris",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.getX,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "HSV MEP",
+      description:
+          "Management Mechanical Electrical Plumbing (MEP) is an application specially designed to help professionals and engineers in civil engineering and construction manage MEP projects with high efficiency and accuracy.",
+      appPhotos: AppConstants.hsvMepImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.hsv.mep",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.getX,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
       title: "Clandys Store",
       description:
           "The Idea came during the pandemics to solve the issue of social distancing in supermarkets.",

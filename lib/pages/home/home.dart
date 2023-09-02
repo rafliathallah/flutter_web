@@ -74,7 +74,7 @@ class _HomeState extends ConsumerState<Home>
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Portfolio",
+                      "Portfolio & Hand over",
                       style: GoogleFonts.josefinSans(
                         fontWeight: FontWeight.w900,
                         fontSize: 36,
@@ -84,7 +84,7 @@ class _HomeState extends ConsumerState<Home>
                       height: 5,
                     ),
                     Text(
-                      "Here are some of my Previous Work :)",
+                      "Here are some of my Previous Work and Continue previous work :)",
                       style: GoogleFonts.josefinSans(
                         color: Colors.grey[400],
                         fontSize: 14,
