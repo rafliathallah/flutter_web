@@ -46,6 +46,9 @@ class AppConstants {
   static const getxImage = _techImages + "getx.png";
 
   static const _projectsImages = _images + "projects/";
+  static const qhseImage = _projectsImages + "madhani_qhse.png";
+  static const lmsOdpImage = _projectsImages + "lms_odp.png";
+  static const rcHrisImage = _projectsImages + "rc_hris.png";
   static const hsvHrisImage = _projectsImages + "hsvhris.png";
   static const hsvMepImage = _projectsImages + "hsvmep.png";
   static const clandysStoreImage = _projectsImages + "clandys.png";

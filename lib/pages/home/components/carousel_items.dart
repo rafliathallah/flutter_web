@@ -21,7 +21,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "Mobile Application Developer",
+                      "Mobile Engineer",
                       style: GoogleFonts.josefinSans(
                         color: kPrimaryColor,
                         fontWeight: FontWeight.w900,
@@ -47,7 +47,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                     Row(
                       children: const [
                         Text(
-                          "Flutter Developer, ",
+                          "Mobile Engineer, ",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,

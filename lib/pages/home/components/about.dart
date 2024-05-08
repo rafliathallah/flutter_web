@@ -57,7 +57,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 25.0,
                       ),
                       Text(
-                        "I'm Rafli Athallah, an expert in Flutter programming, Swift code,and UI/UX Design",
+                        "I'm Rafli Athallah,the role of a mobile engineer.I excel in Flutter and Swift programming, and boast extensive experience in UI/UX design",
                         style: GoogleFonts.josefinSans(
                           fontWeight: FontWeight.bold,
                           height: 1.3,
@@ -68,7 +68,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "I have done my Computer Science graduation at UTDI(Universitas Teknologi Digital Indonesia) on 2021. I have been developing Mobile Apps for more than 3 years now. I have worked as a Team and as an Indivual in various organization and launched the apps in Playstore as well as in Appstore. Always love to learn new technologies and to succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self-development and help me achieve personal as well as organisational goals.",
+                        "I have done my Computer Science graduation at UTDI(Universitas Teknologi Digital Indonesia) on 2021. I have been developing Mobile Apps for almost 4 years now. I have worked as a Team and as an Indivual in various organization and launched the apps in Playstore as well as in Appstore. Always love to learn new technologies and to succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self-development and help me achieve personal as well as organisational goals.",
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           color: kCaptionColor,

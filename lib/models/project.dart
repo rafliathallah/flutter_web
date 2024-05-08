@@ -26,6 +26,48 @@ class ProjectModel {
   static List<ProjectModel> projects = [
     ProjectModel(
       project: "Flutter App",
+      title: "Madhani QHSE",
+      description:
+          "QHSE AUTO delivers a rich and adaptable learning experience, accommodating the unique requirements of individuals and teams. The training encompasses internal training and procedure awareness, setting a high standard for corporate learning.",
+      appPhotos: AppConstants.qhseImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.synapsis.qhse_auto_staging",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.bloc,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "LMS ODP",
+      description:
+          "Madhani Talatah Nusantara aims to be renowned for providing leading quality mining and construction services while maintaining a high level of excellence expressed through the empowerment of our people's competency.",
+      appPhotos: AppConstants.lmsOdpImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.synapsis.madhani_one_staging",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.bloc,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "HR RC Absensi",
+      description:
+          "HR RC Attendance is an attendance application intended for all Rocket Chicken employees. This application is used to help employees carry out attendance independently. With this application, it is easier for employees to report their work activities.",
+      appPhotos: AppConstants.rcHrisImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.rocketchicken.absensi.karyawan",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.getX,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
       title: "HSV HRIS",
       description:
           "HSV HRIS is an application that provides an integrated information system for managing human resources (HR) and employee attendance within the company.",
