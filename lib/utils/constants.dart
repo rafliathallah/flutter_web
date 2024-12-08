@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/models/header_item.dart';
 import 'package:my_portfolio/utils/utils.dart';
 
-const Color kPrimaryColor = Color(0xFF0FA691);
+const Color kPrimaryColor = Color(0xFFFB6567);
 const Color kBackgroundColor = Color.fromRGBO(7, 17, 26, 1);
 const Color kDangerColor = Color.fromARGB(255, 243, 22, 22);
 const Color kCaptionColor = Color.fromRGBO(166, 177, 187, 1);
@@ -25,7 +25,7 @@ class AppConstants {
 
   static const _svg = _assets + "svg/";
   static const guySvg = _svg + "guy.svg";
-  static const person = _svg + "logorafli.JPEG";
+  static const person = _svg + "logorafli.jpg";
 
   static const _images = _assets + "images/";
 
@@ -46,6 +46,8 @@ class AppConstants {
   static const getxImage = _techImages + "getx.png";
 
   static const _projectsImages = _images + "projects/";
+  static const lbiHRISImage = _projectsImages + "lbi_hris.png";
+  static const lbiMonitoringImage = _projectsImages + "lbi_monitoring.png";
   static const qhseImage = _projectsImages + "madhani_qhse.png";
   static const lmsOdpImage = _projectsImages + "lms_odp.png";
   static const rcHrisImage = _projectsImages + "rc_hris.png";

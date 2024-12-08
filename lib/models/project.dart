@@ -26,6 +26,34 @@ class ProjectModel {
   static List<ProjectModel> projects = [
     ProjectModel(
       project: "Flutter App",
+      title: "LBI HRIS",
+      description:
+          "The PT Lautan Berlian Indah Employee Attendance Application is a digital solution designed to simplify and increase efficiency in recording employee attendance at the company.",
+      appPhotos: AppConstants.lbiHRISImage,
+      projectLink: "https://play.google.com/store/apps/details?id=com.lbi.hris",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.bloc,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "LBI Monitoring",
+      description:
+          "The PT Lautan Berlian Indah Monitoring Application is a digital solution designed to monitoring Stock, Purchasing ,Sales ,etc at the company and Sub company.",
+      appPhotos: AppConstants.lbiMonitoringImage,
+      projectLink: "",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+        TechnologyConstants.bloc,
+      ],
+      buttonText: "Playstore Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
       title: "Madhani QHSE",
       description:
           "QHSE AUTO delivers a rich and adaptable learning experience, accommodating the unique requirements of individuals and teams. The training encompasses internal training and procedure awareness, setting a high standard for corporate learning.",
